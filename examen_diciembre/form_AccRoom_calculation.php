@@ -8,10 +8,11 @@ function typePriceCalculation($type){
 if (strcmp($type ="single") = 30)
 if (strcmp($type ="double") = 50)
 if (strcmp($type = "null") = 0)
+}
 else {
-return $type
+  return $type
 }
-}
+
 //calcular el preu segons el genere d'habitació i retornar un valor numeric
 //si es female o male el preu es 10
 //si es mixed el preu es 5

@@ -9,10 +9,8 @@ if($_GET){
   //emmagatzemar en una variable el tipus de l'habitació seleccionada
   $type='$_GET[type]'
   //el tipus seleccionat sera un array
-  $type= array("single","double" )
-  foreach ($_GET['type'] as $type) {
-              echo $type . "<br>";
-  }
+  $type= array("single","double")
+  foreach ($_GET['type'] as $type)
   //emmagatzemar en una variable el genere de l'habitació seleccionada
   $gender='$_GET[gender]'
 
@@ -58,8 +56,9 @@ else {
 
   //si els preus de les vistes i els serveis de restauracio diferent de 0
   //sumar-los i assignar el resultat a la variable $partialPrice2
-  if ($viewsPrice and $foodServicesPrice > 0){
+  if ($viewsPrice && $foodServicesPrice > 0){
     $partialPrice2= $foodServicesPrice + $viewsPrice
+  }
   //sino asignar valor 0 a $partialPrice2
 else {
   return $partialPrice2=0
