@@ -9,10 +9,7 @@ if($_GET){
   //emmagatzemar en una variable el tipus de l'habitació seleccionada
   $type='$_GET[type]'
   //el tipus seleccionat sera un array
-      $typePrice= array("single","double" )
-      foreach ($_GET['type'] as $type) {
-                  echo $type . "<br>";
-      }
+
   //emmagatzemar en una variable el genere de l'habitació seleccionada
   $gender='$_GET[gender]'
 
@@ -80,7 +77,7 @@ else {
     <h3>Fill the form with the details of the room you want to book, please.</h3>
 <!--1. configura l'action per a recarregar la mateixa pagina-->
 <!--1. configura el metode PHP que mostra els parametres a la url del navegador-->
-  <FORM ACTION="" METHOD="">
+    <FORM ACTION="<?php echo $_SERVER["PHP_SELF"];?>" METHOD="GET">
        <!--room type-->
           <b>Room type:</b><br><br>
        <select name="type[]">
