@@ -1,4 +1,5 @@
 <?php
+//visusi corrections - KO
 /*1.Vector:hora de la finestra del dia*/
   $M_days['Mati']="Mati";
   $M_days['Migdia']="Migdia";
@@ -35,7 +36,7 @@ echo "<br>";
       }
 
 /*3.Vector:Alarma*/
-   $Alarma=array("8","12","14","16","20");
+   $Alarma=array("8","12","14","16","20"); //visusi corrections KO - Les hores millor si se guarden com numeros que com strings - Modificar
 
    echo "</br>";
    echo "3.Vector:Alarma";

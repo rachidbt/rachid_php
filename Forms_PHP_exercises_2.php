@@ -1,4 +1,6 @@
 <?php
+ //visusi corrections - KO
+ //                               1. solament se mostra un dels navegadors seleccionats- Han de mostrar-se tots els que l'usuari ha seleccionat 
   error_reporting(0);
     $nom= "$_GET[nom]";
     $email= "$_GET[email]";

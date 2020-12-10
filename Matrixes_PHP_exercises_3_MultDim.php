@@ -1,4 +1,5 @@
 <?php
+//visusi corrections - OK                                             
 /*$FoodMenu1= array("Gener", "Febrer", "Març", "Abril", "Maig", "Juny", "Juliol", "Agost", "Septembre", "Octubre", "Novembre", "Desembre");*/
 $Breakfast = array("milk","coffee","toast","oats");
 $Lunch = array("spanish omelet","spaguetti","beans","bacon");

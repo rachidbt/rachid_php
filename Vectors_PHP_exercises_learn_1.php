@@ -1,7 +1,7 @@
 <html>
 <body>
   <?php
-
+//visusi corrections - OK
 $dias[] = "Dilluns";
 $dias[] = "Dimarts";
 $dias[] = "Dimecres";

@@ -1,3 +1,5 @@
+<!--visusi corrections - KO 
+                                    - Falta establir la propietat method del formulari a POST-->
 <HTML>
 <head>
     <title>Un exemple amb un formulari</title>

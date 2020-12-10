@@ -1,4 +1,6 @@
 <?php
+//visusi corrections - KO
+//                               Falta la funciió d'usuari que empra la funcio md5() de php 
 function suma($valor1, $valor2)
 {
     return ($valor1 + $valor2);
