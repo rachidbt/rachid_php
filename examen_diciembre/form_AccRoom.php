@@ -9,7 +9,10 @@ if($_GET){
   //emmagatzemar en una variable el tipus de l'habitació seleccionada
   $type='$_GET[type]'
   //el tipus seleccionat sera un array
-
+  $type= array("single","double" )
+  foreach ($_GET['type'] as $type) {
+              echo $type . "<br>";
+  }
   //emmagatzemar en una variable el genere de l'habitació seleccionada
   $gender='$_GET[gender]'
 
