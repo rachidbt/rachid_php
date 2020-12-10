@@ -1,5 +1,5 @@
 <?php
-
+//visusi corrections - OKok
 $Breakfast = array("milk","coffee","toast","oats");
 $Lunch = array("spanish omelet","spaguetti","beans","bacon");
 $Dinner = array("soup","cheese","fruit","yogurt");
