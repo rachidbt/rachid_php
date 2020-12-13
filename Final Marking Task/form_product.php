@@ -1,4 +1,5 @@
 <?php
+//viusi corrections - Be attentive to solution in class
 //Variables definition
 $name=$capitalisedName=$price=$discount=$discountQuantity=$finalPrice=$replacedMessage=null;
 
