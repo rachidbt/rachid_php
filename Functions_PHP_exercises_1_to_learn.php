@@ -1,6 +1,6 @@
 <?php
 //visusi corrections - KO
-//                               Falta la funciió d'usuari que empra la funcio md5() de php 
+//                               Falta la funciió d'usuari que empra la funcio md5() de php
 function suma($valor1, $valor2)
 {
     return ($valor1 + $valor2);
@@ -30,4 +30,9 @@ function division($valor1, $valor2)
     return ($valor1 / $valor2);
 }
 echo division(4, 6);
+?>
+
+<?php
+$clave=md5('clave del usuario');
+ echo 'Clave encriptada: '.$clave;
 ?>

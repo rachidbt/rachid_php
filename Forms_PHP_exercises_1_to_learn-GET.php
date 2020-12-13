@@ -1,11 +1,11 @@
-<!--visusi corrections - KO 
+<!--visusi corrections - KO
                                     - Falta establir la propietat method del formulari a GET-->
 <HTML>
 <head>
     <title>Un exemple amb un formulari</title>
 </head>
 <body>
-    <form action="/selecciomultipleGET.php">
+    <form action="selecciomultipleGET.php" method="GET">
         Nom:
         <input type="text" name="nom">
         <br> Correu electrònic:
